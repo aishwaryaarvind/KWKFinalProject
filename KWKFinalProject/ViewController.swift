@@ -19,4 +19,5 @@ class ViewController: UIViewController {
 }
 
 //this is a test
-background
+override func viewDidLoad() {         super.viewDidLoad();         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "image")!) }
+

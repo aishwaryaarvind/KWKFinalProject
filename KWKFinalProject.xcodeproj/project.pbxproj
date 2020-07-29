@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363EEA1924D1D3E100C350F3 /* openexistingjournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EEA1824D1D3E100C350F3 /* openexistingjournalViewController.swift */; };
 		BB82A6A024D07B930022DB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82A69F24D07B930022DB04 /* AppDelegate.swift */; };
 		BB82A6A224D07B930022DB04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82A6A124D07B930022DB04 /* SceneDelegate.swift */; };
 		BB82A6A424D07B930022DB04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82A6A324D07B930022DB04 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		363EEA1824D1D3E100C350F3 /* openexistingjournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openexistingjournalViewController.swift; sourceTree = "<group>"; };
 		BB82A69C24D07B930022DB04 /* KWKFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWKFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB82A69F24D07B930022DB04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB82A6A124D07B930022DB04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				BB82A6A124D07B930022DB04 /* SceneDelegate.swift */,
 				BB82A6A324D07B930022DB04 /* ViewController.swift */,
 				BB82A6A524D07B930022DB04 /* Main.storyboard */,
+				363EEA1824D1D3E100C350F3 /* openexistingjournalViewController.swift */,
 				BBDE4F8524D1CE1B00898147 /* WhenClickedQuickJournalViewController.swift */,
 				BB82A6AB24D07B950022DB04 /* Assets.xcassets */,
 				BB82A6AD24D07B950022DB04 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 				BB82A6A424D07B930022DB04 /* ViewController.swift in Sources */,
 				BB82A6A024D07B930022DB04 /* AppDelegate.swift in Sources */,
 				BBDE4F8624D1CE1B00898147 /* WhenClickedQuickJournalViewController.swift in Sources */,
+				363EEA1924D1D3E100C350F3 /* openexistingjournalViewController.swift in Sources */,
 				BB82A6AA24D07B930022DB04 /* KWKFinalProject.xcdatamodeld in Sources */,
 				BB82A6A224D07B930022DB04 /* SceneDelegate.swift in Sources */,
 			);

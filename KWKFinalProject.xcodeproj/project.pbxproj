@@ -16,6 +16,9 @@
 		BB82A6AA24D07B930022DB04 /* KWKFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB82A6A824D07B930022DB04 /* KWKFinalProject.xcdatamodeld */; };
 		BB82A6AC24D07B950022DB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB82A6AB24D07B950022DB04 /* Assets.xcassets */; };
 		BB82A6AF24D07B950022DB04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB82A6AD24D07B950022DB04 /* LaunchScreen.storyboard */; };
+		BBC3AA6224D31FDB002ACC22 /* CreateNewPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3AA6124D31FDB002ACC22 /* CreateNewPageViewController.swift */; };
+		BBC3AA6424D342E6002ACC22 /* CreateNewJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC3AA6324D342E6002ACC22 /* CreateNewJournalEntryViewController.swift */; };
+		BBD7BEC624D377E6007F8F86 /* uploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD7BEC524D377E6007F8F86 /* uploadImageViewController.swift */; };
 		BBDE4F8624D1CE1B00898147 /* WhenClickedQuickJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE4F8524D1CE1B00898147 /* WhenClickedQuickJournalViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,9 @@
 		BB82A6AB24D07B950022DB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB82A6AE24D07B950022DB04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB82A6B024D07B950022DB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC3AA6124D31FDB002ACC22 /* CreateNewPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPageViewController.swift; sourceTree = "<group>"; };
+		BBC3AA6324D342E6002ACC22 /* CreateNewJournalEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewJournalEntryViewController.swift; sourceTree = "<group>"; };
+		BBD7BEC524D377E6007F8F86 /* uploadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadImageViewController.swift; sourceTree = "<group>"; };
 		BBDE4F8524D1CE1B00898147 /* WhenClickedQuickJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenClickedQuickJournalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,13 +70,16 @@
 		BB82A69E24D07B930022DB04 /* KWKFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				BBD7BEC524D377E6007F8F86 /* uploadImageViewController.swift */,
 				BB82A69F24D07B930022DB04 /* AppDelegate.swift */,
 				BB82A6A124D07B930022DB04 /* SceneDelegate.swift */,
+				BBC3AA6124D31FDB002ACC22 /* CreateNewPageViewController.swift */,
 				BB82A6A324D07B930022DB04 /* ViewController.swift */,
 				BB82A6A524D07B930022DB04 /* Main.storyboard */,
 				363EEA1824D1D3E100C350F3 /* openExitingJournalViewController.swift */,
 				BBDE4F8524D1CE1B00898147 /* WhenClickedQuickJournalViewController.swift */,
 				18F438CE24D201200093193D /* JournalLibraryViewController.swift */,
+				BBC3AA6324D342E6002ACC22 /* CreateNewJournalEntryViewController.swift */,
 				BB82A6AB24D07B950022DB04 /* Assets.xcassets */,
 				BB82A6AD24D07B950022DB04 /* LaunchScreen.storyboard */,
 				BB82A6B024D07B950022DB04 /* Info.plist */,
@@ -150,13 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC3AA6224D31FDB002ACC22 /* CreateNewPageViewController.swift in Sources */,
 				BB82A6A424D07B930022DB04 /* ViewController.swift in Sources */,
+				BBC3AA6424D342E6002ACC22 /* CreateNewJournalEntryViewController.swift in Sources */,
 				BB82A6A024D07B930022DB04 /* AppDelegate.swift in Sources */,
 				BBDE4F8624D1CE1B00898147 /* WhenClickedQuickJournalViewController.swift in Sources */,
 				363EEA1924D1D3E100C350F3 /* openExitingJournalViewController.swift in Sources */,
 				18F438CF24D201200093193D /* JournalLibraryViewController.swift in Sources */,
 				BB82A6AA24D07B930022DB04 /* KWKFinalProject.xcdatamodeld in Sources */,
 				BB82A6A224D07B930022DB04 /* SceneDelegate.swift in Sources */,
+				BBD7BEC624D377E6007F8F86 /* uploadImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

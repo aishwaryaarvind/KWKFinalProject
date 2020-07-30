@@ -1,14 +1,14 @@
 //
-//  WhenClickedQuickJournalViewController.swift
+//  CreateNewJournalEntryViewController.swift
 //  KWKFinalProject
 //
-//  Created by Aishwarya Arvind on 7/29/20.
+//  Created by Aishwarya Arvind on 7/30/20.
 //  Copyright © 2020 Aishwarya Arvind. All rights reserved.
 //
 
 import UIKit
 
-class WhenClickedQuickJournalViewController: UIViewController {
+class CreateNewJournalEntryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,11 +17,6 @@ class WhenClickedQuickJournalViewController: UIViewController {
     }
     
 
-    @IBAction func goBackToHomeScreen(_ sender: UIButton) {
-    }
-    
-    
-    
     /*
     // MARK: - Navigation
 

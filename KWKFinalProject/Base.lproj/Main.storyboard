@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9BT-O3-xZo">
@@ -29,58 +29,53 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcV-nB-2xB">
-                                <rect key="frame" x="162" y="433" width="95" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Quick Journal"/>
-                                <connections>
-                                    <segue destination="55g-kR-eBh" kind="show" id="wn3-s7-tso"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OkL-z6-UFq">
-                                <rect key="frame" x="140" y="534" width="135" height="30"/>
+                                <rect key="frame" x="140" y="517" width="135" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Create New Journal"/>
+                                <connections>
+                                    <segue destination="7ge-fn-Acf" kind="presentation" modalPresentationStyle="fullScreen" id="DLa-8d-dNW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zvt-vD-zSd">
-                                <rect key="frame" x="156" y="592" width="103" height="48"/>
+                                <rect key="frame" x="156" y="593" width="103" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Journal Library"/>
                                 <connections>
-                                    <segue destination="E1s-hc-g7s" kind="show" id="ef1-O9-WkA"/>
+                                    <segue destination="E1s-hc-g7s" kind="presentation" modalPresentationStyle="fullScreen" id="ef1-O9-WkA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHY-YU-Hmg">
-                                <rect key="frame" x="132" y="496" width="150" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcV-nB-2xB">
+                                <rect key="frame" x="160" y="464" width="95" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Open Existing Journal"/>
+                                <state key="normal" title="Quick Journal"/>
                                 <connections>
-                                    <segue destination="YRh-Cr-4mE" kind="show" id="Vql-Sz-uzN"/>
+                                    <segue destination="55g-kR-eBh" kind="presentation" modalPresentationStyle="fullScreen" id="wn3-s7-tso"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TX6-Rj-7oe">
+                                <rect key="frame" x="159" y="563" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Photo Journal"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Kbj-dd-BV6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9671.0144927536239" y="-435.26785714285711"/>
+            <point key="canvasLocation" x="-9703" y="-435"/>
         </scene>
         <!--When Clicked Quick Journal View Controller-->
         <scene sceneID="uBP-Qb-PUk">
             <objects>
                 <viewController id="55g-kR-eBh" customClass="WhenClickedQuickJournalViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wQ8-tU-K6K">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pAV-Jc-uIa">
-                                <rect key="frame" x="159" y="404" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quick Journal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qa-9m-e6f">
                                 <rect key="frame" x="154" y="94" width="106" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -93,30 +88,101 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Click to Generate Prompts "/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xra-a8-pcu">
+                                <rect key="frame" x="32" y="62" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="goBackToHomeScreen:" destination="55g-kR-eBh" eventType="touchUpInside" id="UTI-dw-SRX"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="nxm-i5-GaN"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="type your journal here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5ei-c3-HPQ">
+                                <rect key="frame" x="87" y="248" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="69a-Tz-dbF"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Pky-qs-Dqy" appends="YES" id="rbM-jI-TXS"/>
+                            <outletCollection property="gestureRecognizers" destination="UxC-k5-Lob" appends="YES" id="HsK-SC-guh"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="v3z-bQ-5Fa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wou-h2-7bA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="tUA-dM-UCf"/>
+                <swipeGestureRecognizer direction="right" id="Pky-qs-Dqy">
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" id="BFo-px-JhO"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="UxC-k5-Lob"/>
             </objects>
-            <point key="canvasLocation" x="-8955" y="-434"/>
+            <point key="canvasLocation" x="-8781" y="-435"/>
         </scene>
         <!--Openexistingjournal View Controller-->
         <scene sceneID="Qs2-BS-FiM">
             <objects>
                 <viewController id="E1s-hc-g7s" customClass="openexistingjournalViewController" customModule="KWKFinalProject" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PaC-bY-D1s">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2e8-JI-dHh">
-                                <rect key="frame" x="73" y="269" width="268" height="210"/>
+                                <rect key="frame" x="102" y="157" width="211" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="journal"/>
                                 <connections>
                                     <action selector="library:" destination="E1s-hc-g7s" eventType="touchUpInside" id="CX2-5v-cCd"/>
+                                    <segue destination="dM8-TH-4xS" kind="presentation" modalPresentationStyle="fullScreen" id="kLx-lP-eG9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WxM-I3-fJY">
+                                <rect key="frame" x="98" y="325" width="219" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="journal"/>
+                                <connections>
+                                    <action selector="library:" destination="E1s-hc-g7s" eventType="touchUpInside" id="hQf-VD-ayn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nq-Ms-gHH">
+                                <rect key="frame" x="98" y="334" width="219" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="journal"/>
+                                <connections>
+                                    <action selector="library:" destination="E1s-hc-g7s" eventType="touchUpInside" id="9t7-6C-WeK"/>
+                                    <segue destination="dM8-TH-4xS" kind="presentation" modalPresentationStyle="fullScreen" id="Oj0-p3-AhN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfg-oW-og1">
+                                <rect key="frame" x="98" y="516" width="219" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="journal"/>
+                                <connections>
+                                    <action selector="library:" destination="E1s-hc-g7s" eventType="touchUpInside" id="9Oh-BC-lSa"/>
+                                    <segue destination="dM8-TH-4xS" kind="presentation" id="6vG-er-IH3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Journal Library" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xST-2s-fpD">
+                                <rect key="frame" x="150" y="84" width="115" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ag-78-uhl">
+                                <rect key="frame" x="26" y="44" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="dEa-29-TiK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -127,14 +193,96 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4qQ-Fw-gaX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9671.0144927536239" y="259.82142857142856"/>
+            <point key="canvasLocation" x="-9743.4782608695659" y="1108.9285714285713"/>
         </scene>
-        <!--Journal Library View Controller-->
+        <!--Create New Page View Controller-->
+        <scene sceneID="9Cs-xY-jDE">
+            <objects>
+                <viewController id="dM8-TH-4xS" customClass="CreateNewPageViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5cd-N3-fuy" customClass="Cre">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCE-qu-HR8">
+                                <rect key="frame" x="146" y="280" width="123" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Create New Page "/>
+                                <connections>
+                                    <segue destination="YRh-Cr-4mE" kind="presentation" modalPresentationStyle="fullScreen" id="e6i-Dd-hLT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDS-Sy-Gyd">
+                                <rect key="frame" x="39" y="44" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="E1s-hc-g7s" kind="presentation" modalPresentationStyle="fullScreen" id="IHh-dT-vo1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Z2T-Lr-rhp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LWD-Zo-Anb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z7q-hF-TOK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8685.507246376812" y="1120.9821428571429"/>
+        </scene>
+        <!--Create New Journal View Controller-->
+        <scene sceneID="xkD-t3-WPE">
+            <objects>
+                <viewController id="7ge-fn-Acf" customClass="CreateNewJournalViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p7a-ze-0VM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfR-W5-NBk">
+                                <rect key="frame" x="73" y="260" width="268" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="journal"/>
+                                <connections>
+                                    <action selector="openNewJournal:" destination="a0I-8y-uM5" eventType="touchUpInside" id="Y7P-ja-G3a"/>
+                                    <segue destination="dM8-TH-4xS" kind="presentation" modalPresentationStyle="fullScreen" id="kWf-nP-3RV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create a New Jorunal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3l-B1-hsH">
+                                <rect key="frame" x="125" y="136" width="164" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rd9-hm-pHP">
+                                <rect key="frame" x="26" y="44" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Nhv-4k-oWC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="cKL-zp-IyV"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="zNc-TW-Dtf" appends="YES" id="BBO-OT-bs0"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="wio-ab-vey"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BK4-W1-BPT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="a0I-8y-uM5" userLabel="Exit" sceneMemberID="exit"/>
+                <swipeGestureRecognizer direction="right" id="zNc-TW-Dtf"/>
+            </objects>
+            <point key="canvasLocation" x="-9252.1739130434798" y="298.66071428571428"/>
+        </scene>
+        <!--Create New Journal Entry View Controller-->
         <scene sceneID="vD5-eU-eMj">
             <objects>
-                <viewController id="YRh-Cr-4mE" customClass="JournalLibraryViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YRh-Cr-4mE" customClass="CreateNewJournalEntryViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aNB-c7-78m">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6464E02C-94E3-4564-92A9-BEC97545CB5A_4_5005_c" translatesAutoresizingMaskIntoConstraints="NO" id="aTF-in-wxL">
@@ -142,9 +290,31 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtE-TH-b1e">
-                                <rect key="frame" x="187" y="52" width="55" height="30"/>
+                                <rect key="frame" x="180" y="39" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Stickers"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9C-ad-Zb0">
+                                <rect key="frame" x="300" y="39" width="84" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Insert Photo"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="type journal here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xqd-nu-zfM">
+                                <rect key="frame" x="58" y="89" width="312" height="657"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J28-QR-r1H">
+                                <rect key="frame" x="38" y="39" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="dM8-TH-4xS" kind="presentation" modalPresentationStyle="fullScreen" id="hzY-C6-rJ1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -154,9 +324,51 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ok4-6k-63m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8904.3478260869579" y="244.41964285714283"/>
+            <point key="canvasLocation" x="-7649.275362318841" y="1108.9285714285713"/>
+        </scene>
+        <!--Upload Image View Controller-->
+        <scene sceneID="2iJ-zx-3q7">
+            <objects>
+                <viewController id="Kl2-tb-S1C" customClass="uploadImageViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CwW-df-3jO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="meC-hB-ukr">
+                                <rect key="frame" x="111" y="182" width="193" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hk6-j7-FeA">
+                                <rect key="frame" x="169" y="383" width="76" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Take Photo"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gqN-XL-FMD">
+                                <rect key="frame" x="160" y="462" width="94" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Upload Photo"/>
+                                <connections>
+                                    <action selector="uploadPhoto:" destination="Kl2-tb-S1C" eventType="touchUpInside" id="Eye-WQ-udM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3aY-kK-d9m"/>
+                    </view>
+                    <connections>
+                        <outlet property="viewImage" destination="meC-hB-ukr" id="LU7-O6-u5m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cdv-a6-C4p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6788.4057971014499" y="1107.5892857142856"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hzY-C6-rJ1"/>
+        <segue reference="ef1-O9-WkA"/>
+        <segue reference="BFo-px-JhO"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="6464E02C-94E3-4564-92A9-BEC97545CB5A_4_5005_c" width="319" height="612"/>
         <image name="journal" width="268" height="204"/>

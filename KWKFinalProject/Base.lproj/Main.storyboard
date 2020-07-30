@@ -37,20 +37,26 @@
                                     <segue destination="55g-kR-eBh" kind="show" id="wn3-s7-tso"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHY-YU-Hmg">
-                                <rect key="frame" x="132" y="481" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Open Existing Journal"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OkL-z6-UFq">
                                 <rect key="frame" x="140" y="534" width="135" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Create New Journal"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zvt-vD-zSd">
-                                <rect key="frame" x="156" y="592" width="103" height="30"/>
+                                <rect key="frame" x="156" y="592" width="103" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Journal Library"/>
+                                <connections>
+                                    <segue destination="E1s-hc-g7s" kind="show" id="ef1-O9-WkA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHY-YU-Hmg">
+                                <rect key="frame" x="132" y="496" width="150" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Open Existing Journal"/>
+                                <connections>
+                                    <segue destination="YRh-Cr-4mE" kind="show" id="Vql-Sz-uzN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -102,7 +108,7 @@
             <objects>
                 <viewController id="E1s-hc-g7s" customClass="openexistingjournalViewController" customModule="KWKFinalProject" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PaC-bY-D1s">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2e8-JI-dHh">
@@ -117,13 +123,42 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ela-uw-M8e"/>
                     </view>
+                    <navigationItem key="navigationItem" id="vzq-m8-BV1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4qQ-Fw-gaX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-9671.0144927536239" y="259.82142857142856"/>
         </scene>
+        <!--Journal Library View Controller-->
+        <scene sceneID="vD5-eU-eMj">
+            <objects>
+                <viewController id="YRh-Cr-4mE" customClass="JournalLibraryViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aNB-c7-78m">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6464E02C-94E3-4564-92A9-BEC97545CB5A_4_5005_c" translatesAutoresizingMaskIntoConstraints="NO" id="aTF-in-wxL">
+                                <rect key="frame" x="0.0" y="77" width="428" height="777"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtE-TH-b1e">
+                                <rect key="frame" x="187" y="52" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Stickers"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="9Qp-EW-xuO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="j7S-16-IZP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ok4-6k-63m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8904.3478260869579" y="244.41964285714283"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="6464E02C-94E3-4564-92A9-BEC97545CB5A_4_5005_c" width="319" height="612"/>
         <image name="journal" width="268" height="204"/>
     </resources>
 </document>

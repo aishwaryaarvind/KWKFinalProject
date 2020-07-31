@@ -2,7 +2,7 @@
 //  CreateNewJournalViewController.swift
 //  KWKFinalProject
 //
-//  Created by Aishwarya Arvind on 7/30/20.
+//  Created by Aishwarya Arvind on 7/31/20.
 //  Copyright © 2020 Aishwarya Arvind. All rights reserved.
 //
 
@@ -12,25 +12,11 @@ class CreateNewJournalViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BuJo")!)
         // Do any additional setup after loading the view.
     }
-// image button - notebook
-//    @IBAction func openNewJournal(_ sender: UIButton) {
-////        let image = UIImage(named: "journal")
-////               let button = UIButton(frame: CGRect(x: 100, y: 100, width: 150, height: 150))
-////               button.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
-////               button.setImage(image, for: UIControl.State.normal)
-////               button.addTarget(self, action: #selector(library), for: UIControl.Event.touchUpInside)
-////                   view.addSubview(button)
-//    }
-//
-  
+    
 
-    
-    
-    
-    
     /*
     // MARK: - Navigation
 

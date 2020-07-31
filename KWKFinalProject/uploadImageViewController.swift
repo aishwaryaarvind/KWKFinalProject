@@ -8,65 +8,39 @@
 
 import UIKit
 
-class uploadImageViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class uploadImageViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
-    var imagePicker = UIImagePickerController()
+     var imagePicker = UIImagePickerController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        super.viewDidLoad()
+         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BuJo")!)
         imagePicker.delegate = self
 
         // Do any additional setup after loading the view.
     }
-    
-  
-    
-    @IBOutlet weak var viewImage: UIImageView!
-    internal func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        if let selectedImage = info[UIImagePickerController.Infokey.originalImage] as? UIImage{ viewImage.image = selectedImage
-        }
-            imagePicker.dismiss(animated: true, completion: nil)
-        }
-    
-    @IBAction func uploadPhoto(_ sender: UIButton) {
-        imagePicker.sourceType = .photoLibrary
-                present(imagePicker, animated: true, completion: nil)
+    //app crashes here
+    @IBAction func takeSelfieTapped(_ sender: UIButton) {
+        imagePicker.sourceType = .camera
+        present(imagePicker, animated: true, completion: nil)
     }
     
     
+    @IBOutlet weak var displayImage: UIImageView!
+    internal func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{ displayImage.image = selectedImage
+            
+        }
+        imagePicker.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func uploadPicture(_ sender: UIButton) {
+        imagePicker.sourceType = .photoLibrary
+               present(imagePicker, animated: true, completion: nil)
+    }
     
     
-    
-//    @IBAction func takePhotoTapped(_ sender: UIButton) {
-//        imagePicker.sourceType = .camera
-//        present(imagePicker, animated: true, completion: nil)
-//    }
-//
-//    @IBOutlet weak var displayImage: UIImageView!
-//    internal func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-//        if let selectedImage = info[UIImagePickerController.Infokey.originalImage] as?
-//        UIImage{ displayImage.image = selectedImage
-//        }
-//        imagePicker.dismiss(animated: true, completion: nil)
-//    }
-//
-//    @IBAction func uploadPicture(_ sender: UIButton) {
-//        imagePicker.sourceType = .photoLibrary
-//        present(imagePicker, animated: true, completion: nil)
-//    }
-//
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
     /*
     // MARK: - Navigation
 

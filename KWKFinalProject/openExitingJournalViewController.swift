@@ -14,6 +14,7 @@ class openexistingjournalViewController: UIViewController {
     @IBAction func library(_ sender: UIButton) {
     }
     override func viewDidLoad() {
+         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BuJo")!)
         super.viewDidLoad()
         let image = UIImage(named: "journal")
         let button = UIButton(frame: CGRect(x: 100, y: 100, width: 150, height: 150))

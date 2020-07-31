@@ -32,6 +32,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OkL-z6-UFq">
                                 <rect key="frame" x="66" y="502" width="243" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="25"/>
                                 <state key="normal" title="Create New Journal">
                                     <color key="titleColor" red="0.37647058820000001" green="0.58823529409999997" blue="0.72941176470000002" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
@@ -43,6 +44,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcV-nB-2xB">
                                 <rect key="frame" x="104" y="433" width="166" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="25"/>
                                 <state key="normal" title="Quick Journal">
                                     <color key="titleColor" red="0.37647058823529411" green="0.58823529411764708" blue="0.72941176470588232" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
@@ -61,6 +63,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TX6-Rj-7oe">
                                 <rect key="frame" x="102" y="565" width="171" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="25"/>
                                 <state key="normal" title="Photo Journal">
                                     <color key="titleColor" red="0.37647058820000001" green="0.58823529409999997" blue="0.72941176470000002" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
@@ -72,6 +75,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zvt-vD-zSd">
                                 <rect key="frame" x="68" y="624" width="238" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="25"/>
                                 <state key="normal" title="Journal Library">
                                     <color key="titleColor" red="0.37647058820000001" green="0.58823529409999997" blue="0.72941176470000002" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
@@ -528,13 +532,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0kI-dc-qhl"/>
+        <segue reference="WLk-we-Eem"/>
         <segue reference="9eF-nd-vy1"/>
         <segue reference="rum-uO-RwQ"/>
-        <segue reference="t2O-Eo-7fj"/>
-        <segue reference="yST-Ev-p9u"/>
+        <segue reference="DLa-8d-dNW"/>
+        <segue reference="kWf-nP-3RV"/>
         <segue reference="ef1-O9-WkA"/>
-        <segue reference="CjK-rg-vl3"/>
+        <segue reference="Nhv-4k-oWC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="6464E02C-94E3-4564-92A9-BEC97545CB5A_4_5005_c" width="319" height="612"/>
